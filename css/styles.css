@@ -18,9 +18,9 @@ body{
     letter-spacing: .1rem;
 }
 
-/* .navbar-brand{
-    height: 1rem;
-} */
+.navbar-brand span{
+    color: orange;
+}
 
 .navbar-nav li{
     padding-right: 0.7rem;
@@ -33,28 +33,57 @@ body{
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover{
     cursor: pointer;
-    color: green;   
+    color:orange;   
 }
 
 /* landing page */
-.landing{
-    background-image: url('/images/800px_COLOURBOX14581461.jpg');
+.home-inner{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0, 0 , 0, 0.7)), url('/images/800px_COLOURBOX14581461.jpg');
     background-position: center;
-    height: 500vh;
+    height: 100vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    color: white;
+    z-index: 1;    
+}
 
+.caption h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem 0.8rem black;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+.caption h6{
+    font-size: 1.6rem;
+    text-shadow:.1rem .1rem 0.5rem black; ;
+    padding-bottom: 1.5rem;
+    /* text-transform: uppercase; */
+    color: orange;
+}
 
-
+.btn-lg{
+    border-width: medium;   
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+    color: white;
+}
 
 /* about */
 .about h2{
     text-transform: capitalize;
     text-align: center;
     font-weight: bold;
+    padding-top: 20px;
 }
 
 .pro{
@@ -62,11 +91,52 @@ body{
     letter-spacing:.1rem;
 }
 
-.landing{
-    background-image: url("../images/photo-1498050108023-c5249f4df085.jpeg");
-   
+/* services */
+.services{
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+
+.services h2{
+    padding: 15px;
+    color: white;
+    padding-bottom: 2rem;    
+}
+.fas{
+    padding-bottom: .9rem;
+    color: rgb(252, 250, 247);
+}
+h5{
+    color: orange;
 }
 
 
 
-/* scroll top */
+/* our team */
+
+/* price plan  */
+
+/* clients */
+
+/* contacts */
+.cont{          
+    padding-top: 2rem; 
+    padding-left: 30px;
+    background-color: rgb(87, 127, 201);
+    color: white;
+}
+.cont h3{
+    font-weight: 700;
+}
+
+.footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: black;
+    color: white;
+}
+
+.footer-hr{
+    max-width: 40%;
+    color: orange;
+}
