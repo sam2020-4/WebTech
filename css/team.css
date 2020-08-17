@@ -1,0 +1,82 @@
+.team {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0, 0 , 0, 0.7)), url('../images/download.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    margin-top: 0px;
+}
+
+#heading {
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: normal;
+    font-family: Century Gothic
+}
+
+.line {
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    padding: 2px;
+    height: 4px;
+    width: 100px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    -ms-transform: translateY(-45%);
+    transform: translateY(-45%)
+}
+
+@media (max-width: 768px) {
+    .vertical-center {
+        margin: 0;
+        position: relative;
+        top: 0;
+        -ms-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+.gap {
+    height: 130px
+}
+
+#padding{
+    padding: 70px;
+}
+@media (max-width: 768px) {
+    .gap {
+        height: 0
+    }
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%
+}
+
+.image-name {
+    font-weight: bold
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
